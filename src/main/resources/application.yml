@@ -1,0 +1,15 @@
+server:
+  port: 9411
+
+spring:
+  application:
+    name: zipkin-server
+
+zipkin:
+  storage:
+      type: cassandra
+      cassandra:
+        keyspace: zipkin3
+
+
+
